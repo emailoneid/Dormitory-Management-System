@@ -1,0 +1,968 @@
+{
+	"info": {
+		"_postman_id": "fedf4dea-00b6-4769-a6a8-6e85e9b399c0",
+		"name": "newmock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44507894",
+		"_collection_link": "https://mendeluniversity.postman.co/workspace/MendelUniversity-Workspace~bfc000b4-924a-4b50-8e47-c76a61198ea5/collection/44507894-fedf4dea-00b6-4769-a6a8-6e85e9b399c0?action=share&source=collection_link&creator=44507894"
+	},
+	"item": [
+		{
+			"name": "MockStudents",
+			"item": [
+				{
+					"name": "students",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students",
+							"protocol": "https",
+							"host": [
+								"41743d1d-d185-4483-b97c-124c16a44d98",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"mock",
+								"students"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "students",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students",
+									"protocol": "https",
+									"host": [
+										"41743d1d-d185-4483-b97c-124c16a44d98",
+										"mock",
+										"pstmn",
+										"io"
+									],
+									"path": [
+										"mock",
+										"students"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
+							"cookie": [
+								{
+									"expires": "Invalid Date"
+								}
+							],
+							"body": "[\r\n  {\r\n    \"id\": 1,\r\n    \"studentId\": \"A0001\",\r\n    \"name\": \"Kim\",\r\n    \"email\": \"kim@example.com\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"studentId\": \"A0002\",\r\n    \"name\": \"Shyam\",\r\n    \"email\": \"shyam@example.com\"\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"studentId\": \"A0003\",\r\n    \"name\": \"Ronak\",\r\n    \"email\": \"ronak@example.com\"\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"studentId\": \"A0004\",\r\n    \"name\": \"Habib\",\r\n    \"email\": \"habib@example.com\"\r\n  }\r\n]"
+						}
+					]
+				},
+				{
+					"name": "students 1",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/1",
+							"protocol": "https",
+							"host": [
+								"41743d1d-d185-4483-b97c-124c16a44d98",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"mock",
+								"students",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "students 1",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/1",
+									"protocol": "https",
+									"host": [
+										"41743d1d-d185-4483-b97c-124c16a44d98",
+										"mock",
+										"pstmn",
+										"io"
+									],
+									"path": [
+										"mock",
+										"students",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
+							"cookie": [
+								{
+									"expires": "Invalid Date"
+								}
+							],
+							"body": "  {\r\n    \"id\": 1,\r\n    \"studentId\": \"A0001\",\r\n    \"name\": \"Kim\",\r\n    \"email\": \"kim@example.com\"\r\n  }"
+						}
+					]
+				},
+				{
+					"name": "students 2",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/2",
+							"protocol": "https",
+							"host": [
+								"41743d1d-d185-4483-b97c-124c16a44d98",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"mock",
+								"students",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "students 2",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/2",
+									"protocol": "https",
+									"host": [
+										"41743d1d-d185-4483-b97c-124c16a44d98",
+										"mock",
+										"pstmn",
+										"io"
+									],
+									"path": [
+										"mock",
+										"students",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
+							"cookie": [
+								{
+									"expires": "Invalid Date"
+								}
+							],
+							"body": " {\r\n    \"id\": 2,\r\n    \"studentId\": \"A0002\",\r\n    \"name\": \"Shyam\",\r\n    \"email\": \"shyam@example.com\"\r\n  }"
+						}
+					]
+				},
+				{
+					"name": "students 3",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/3",
+							"protocol": "https",
+							"host": [
+								"41743d1d-d185-4483-b97c-124c16a44d98",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"mock",
+								"students",
+								"3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "students 3",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/3",
+									"protocol": "https",
+									"host": [
+										"41743d1d-d185-4483-b97c-124c16a44d98",
+										"mock",
+										"pstmn",
+										"io"
+									],
+									"path": [
+										"mock",
+										"students",
+										"3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
+							"cookie": [
+								{
+									"expires": "Invalid Date"
+								}
+							],
+							"body": "{\r\n    \"id\": 3,\r\n    \"studentId\": \"A0003\",\r\n    \"name\": \"Ronak\",\r\n    \"email\": \"ronak@example.com\"\r\n  }"
+						}
+					]
+				},
+				{
+					"name": "students 4",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/4",
+							"protocol": "https",
+							"host": [
+								"41743d1d-d185-4483-b97c-124c16a44d98",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"mock",
+								"students",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "students 4",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io/mock/students/4",
+									"protocol": "https",
+									"host": [
+										"41743d1d-d185-4483-b97c-124c16a44d98",
+										"mock",
+										"pstmn",
+										"io"
+									],
+									"path": [
+										"mock",
+										"students",
+										"4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
+							"cookie": [
+								{
+									"expires": "Invalid Date"
+								}
+							],
+							"body": " {\r\n    \"id\": 4,\r\n    \"studentId\": \"A0004\",\r\n    \"name\": \"Habib\",\r\n    \"email\": \"habib@example.com\"\r\n  }"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Student",
+			"item": [
+				{
+					"name": "Student API",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/damns/api/students/mocked",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"students",
+								"mocked"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getStudents",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/damns/api/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"students"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Room",
+			"item": [
+				{
+					"name": "addRoom1",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roomNumber\": \"A101\",\r\n  \"capacity\": 2,\r\n  \"available\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/rooms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"rooms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addRoom2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roomNumber\": \"B202\",\r\n  \"capacity\": 4,\r\n  \"available\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/rooms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"rooms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addRoom3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roomNumber\": \"C202\",\r\n  \"capacity\": 6,\r\n  \"available\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/rooms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"rooms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addRoom4",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roomNumber\": \"D502\",\r\n  \"capacity\": 2,\r\n  \"available\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/rooms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"rooms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getRooms",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/damns/api/rooms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"rooms"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateRoom",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roomNumber\": \"G502\",\r\n  \"capacity\": 21,\r\n  \"available\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/rooms/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"rooms",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteRoom",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"roomNumber\": \"G502\",\r\n  \"capacity\": 21,\r\n  \"available\": true\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/rooms/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"rooms",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Enrollment",
+			"item": [
+				{
+					"name": "addEnrollment1",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"studentId\": \"A0001\",\r\n  \"roomId\": 1,\r\n  \"startDate\": \"2025-07-01\",\r\n  \"endDate\": \"2025-12-31\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/enrollments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"enrollments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addEnrollment2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"studentId\": \"A0002\",\r\n  \"roomId\": 2,\r\n  \"startDate\": \"2035-11-01\",\r\n  \"endDate\": \"2045-12-31\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/enrollments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"enrollments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addEnrollment3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"studentId\": \"A0003\",\r\n  \"roomId\": 3,\r\n  \"startDate\": \"2025-01-01\",\r\n  \"endDate\": \"2027-12-31\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/enrollments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"enrollments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addEnrollment4",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"studentId\": \"A0004\",\r\n  \"roomId\": 4,\r\n  \"startDate\": \"2025-09-01\",\r\n  \"endDate\": \"2026-12-31\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/enrollments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"enrollments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getEnrollments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/damns/api/enrollments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"enrollments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateEnrollment",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"studentId\": 1,\r\n    \"roomId\": 1,\r\n    \"studentName\": \"Kim\",\r\n    \"roomNumber\": \"A101\",\r\n    \"startDate\": \"2025-01-10\",\r\n    \"endDate\": \"2025-06-30\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/enrollments/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"enrollments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteEnrollment",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \"studentId\": 1,\r\n    \"roomId\": 1,\r\n    \"studentName\": \"Kim\",\r\n    \"roomNumber\": \"A101\",\r\n    \"startDate\": \"2025-01-10\",\r\n    \"endDate\": \"2025-06-30\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/damns/api/enrollments/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"damns",
+								"api",
+								"enrollments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "viewAggregate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/damns/api/enrollments/aggregated",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"damns",
+						"api",
+						"enrollments",
+						"aggregated"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://41743d1d-d185-4483-b97c-124c16a44d98.mock.pstmn.io"
+		}
+	]
+}
