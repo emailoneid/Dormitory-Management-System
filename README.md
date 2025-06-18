@@ -90,14 +90,14 @@ Example response:
   "startDate": "2025-07-01",
   "endDate": "2025-12-31"
 }
-
+```
 
 ## 🛠 Technologies Used
-Spring Boot 3
-Spring Web
-Spring Data JPA
-H2 / PostgreSQL (via Docker Compose)
-Docker (containerized backend + DB)
-Postman Mock Server
-DTO Pattern
-Layered Architecture: Controller → Service → Repository
+- Spring Boot 3
+- Spring Web
+- Spring Data JPA
+- H2 / PostgreSQL (via Docker Compose)
+- Docker (containerized backend + DB)
+- Postman Mock Server
+- DTO Pattern
+- Layered Architecture: Controller → Service → Repository
