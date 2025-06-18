@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  dev-postgres:
+    image: postgres:latest
+    container_name: dev-postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
+      - POSTGRES_DB=test
+    ports:
+      - "5432:5432"
+    networks:
+      - damns-network
+
+  damns:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: damns:latest
+    container_name: damns
+    ports:
+      - "8080:8080"
+    depends_on:
+      - dev-postgres
+    networks:
+      - damns-network
+
+networks:
+  damns-network:
+    name: damns-network
+    driver: bridge
